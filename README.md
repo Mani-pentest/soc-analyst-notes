@@ -19,7 +19,7 @@ Google Cybersecurity Professional Certificate (Complete) → eJPT → PNPT → O
 | Windows Fundamentals | ✅ Complete |
 | Active Directory Basics | ✅ Complete |
 | Programming (Python, Bash, JS) | ✅ Complete |
-| Security Fundamentals | 🔄 In Progress |
+| Security Fundamentals |  ✅ Complete  |
 | Web Application Pentesting | ⏳ Upcoming |
 | Network Pentesting | ⏳ Upcoming |
 | Privilege Escalation | ⏳ Upcoming |
