@@ -6,8 +6,8 @@ B.Tech Cybersecurity graduate to SOC Analyst.
 Self-studying through networking, systems, and 
 security fundamentals, now focused on SOC-specific 
 skills via TryHackMe's SOC Level 1 path — alongside 
-the Google Cybersecurity Professional Certificate 
-(Coursera).
+the Google Cybersecurity Professional Certificate. 
+
 
 ## Certification Path
 Google Cybersecurity Professional Certificate (Complete) → TryHackMe SOC Level 1 → Security+
