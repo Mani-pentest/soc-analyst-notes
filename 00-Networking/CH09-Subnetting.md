@@ -1,16 +1,21 @@
 # CH-09: Subnetting
 
 ## Definition
+
 **Subnet** — A smaller logical division of a larger network.
 
 ## Analogy
+
 Imagine a large apartment building:
+
 - Building = 192.168.1.0/24
 - Floors = subnets
 - Flats = individual IP addresses
 
 ## What /24 Means
+
 192.168.1.0/24
+
 - 24 bits are fixed (the network part)
 - 8 bits are free (for devices)
 - 2^8 = 256 addresses
@@ -18,6 +23,7 @@ Imagine a large apartment building:
 - First = network address, Last = broadcast
 
 ## Key Subnet Sizes to Memorize
+
 | CIDR | Hosts | Use Case |
 |------|-------|----------|
 | /24 | 254 | Most common — almost every CTF |
@@ -29,18 +35,18 @@ Imagine a large apartment building:
 | /22 | 1022 | Medium network |
 
 ## Commands
+
 ```bash
 ipcalc 192.168.1.0/24
 ipcalc 10.0.0.0/8
 ipcalc 172.16.0.0/28
 # ipcalc shows network address, broadcast and all hosts
+```
 
-Network Address
+## Network Address
 
-First IP in a subnet. Represents the network itself.
-Cannot be assigned to a device.
+First IP in a subnet. Represents the network itself. Cannot be assigned to a device.
 
-Broadcast Address
+## Broadcast Address
 
-Last IP in a subnet. Sends data to all devices simultaneously.
-Cannot be assigned to a device.
+Last IP in a subnet. Sends data to all devices simultaneously. Cannot be assigned to a device.
