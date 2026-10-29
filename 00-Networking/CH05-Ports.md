@@ -1,17 +1,19 @@
 # CH-05: Ports
 
 ## Definition
-**Port** — A virtual door on a computer that identifies 
-which application or service incoming data belongs to. 
-Every computer has 65,535 ports.
+
+**Port** — A virtual door on a computer that identifies which application or service incoming data belongs to. Every computer has 65,535 ports.
 
 ## Analogy
+
 Think of your IP as a building and ports as individual doors:
+
 - 192.168.1.5 : 80 → goes to web server
 - 192.168.1.5 : 22 → goes to SSH service
 - 192.168.1.5 : 443 → goes to HTTPS service
 
 ## Port Ranges
+
 - Well-known ports: 0–1023
 - Registered ports: 1024–49,151
 - Dynamic ports: 49,152–65,535
@@ -32,7 +34,8 @@ Think of your IP as a building and ports as individual doors:
 | 3389 | RDP | Brute force, BlueKeep |
 
 ## Command
+
 ```bash
 netstat -tulnp
 # Shows all open ports on your machine right now
-
+```
