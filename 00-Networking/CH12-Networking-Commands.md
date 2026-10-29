@@ -17,6 +17,7 @@
 | wireshark | Captures and analyzes network traffic |
 
 ## Practice Commands
+
 ```bash
 ifconfig
 ip a
@@ -28,3 +29,4 @@ arp -a
 nslookup google.com
 dig google.com
 nmap -sV 192.168.1.1
+```
