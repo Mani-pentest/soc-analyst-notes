@@ -20,7 +20,6 @@ If you only read a few files, read these:
 | Google Cybersecurity Professional Certificate (Coursera) | Completed |
 | TryHackMe Pre-Security path | Completed |
 | TryHackMe SOC Level 1 path | In progress |
-| CompTIA Security+ | Planned |
 
 ## Projects
 
