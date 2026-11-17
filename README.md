@@ -27,7 +27,7 @@ If you only read a few files, read these:
 |---|---|
 | Google Cybersecurity Professional Certificate (Coursera) | Completed |
 | TryHackMe Pre-Security path | Completed |
-| TryHackMe SOC Level 1 path | In progress (11 of 14 modules completed) |
+| TryHackMe SOC Level 1 path | In progress (12 of 14 modules completed) |
 
 ## TryHackMe SOC Level 1 Progress
 
@@ -44,7 +44,7 @@ If you only read a few files, read these:
 | Windows Security Monitoring | [SOC09](06-SOC/SOC09-Windows-Security-Monitoring.md) | Completed |
 | Linux Security Monitoring | [SOC10](06-SOC/SOC10-Linux-Security-Monitoring.md) | Completed |
 | Malware Concepts for SOC | [SOC11](06-SOC/SOC11-Malware-Concepts-for-SOC.md) | Completed |
-| Threat Analysis Tools | Notes coming | Planned |
+| Threat Analysis Tools | [SOC12](06-SOC/SOC12-Threat-Analysis-Tools.md) | Completed |
 | SIEM Triage for SOC | Notes coming | Planned |
 | SOC Level 1 Capstone Challenges | Notes coming | Planned |
 
@@ -60,7 +60,7 @@ New SOC notes are added after each TryHackMe module is finished.
 | [03-Active-Directory](03-Active-Directory) | Domains, OUs, groups, GPO, Kerberos and NetNTLM |
 | [04-Programming](04-Programming) | Python basics, automation and regex, bash scripting, JavaScript XSS concepts |
 | [05-Security-Fundamentals](05-Security-Fundamentals) | CIA triad, risk, OWASP Top 10, malware types, encryption and hashing, web basics |
-| [06-SOC](06-SOC) | Blue team, SOC internals, SOC tooling, frameworks, phishing analysis, network traffic analysis, network, web, Windows, and Linux security monitoring, and malware concepts |
+| [06-SOC](06-SOC) | Blue team, SOC internals, SOC tooling, frameworks, phishing analysis, network traffic analysis, network, web, Windows, and Linux security monitoring, malware concepts, and threat intelligence tools |
 
 ## Tools Used
 
