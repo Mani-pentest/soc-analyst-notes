@@ -1,18 +1,18 @@
-# SOC analyst notes: Manikanta Rapolu
+# SOC Analyst Notes — Manikanta Rapolu
 
 B.Tech Cybersecurity graduate in Hyderabad, preparing for a SOC Analyst (L1) role. This repo holds the structured notes I write while studying networking, Linux, Windows, security fundamentals, and the TryHackMe SOC Level 1 path. Each note has definitions, tables, commands, and a short summary. My hands-on project work is linked below.
 
-## Start here
+## Start Here
 
 If you only read a few files, read these:
 
 | File | What it shows |
 |---|---|
-| [SOC09 Windows Security Monitoring](06-SOC/SOC09-Windows-Security-Monitoring.md) | Event IDs (4624, 4625, 4720, 4732), Sysmon, RDP brute force, phishing delivery, persistence, and how to correlate with Logon ID and ProcessId |
-| [SOC10 Linux Security Monitoring](06-SOC/SOC10-Linux-Security-Monitoring.md) | auth.log, auditd and process trees, SSH brute force, discovery, persistence, and a Windows-to-Linux log map |
-| [SOC05 Phishing Analysis](06-SOC/SOC05-Phishing-Analysis.md) | Email header analysis, SPF/DKIM/DMARC, phishing tools, the analyze → investigate → remediate workflow |
-| [SOC07 Network Security Monitoring](06-SOC/SOC07-Network-Security-Monitoring.md) | Perimeter logs, scan detection, data exfiltration, man-in-the-middle, IDS and Snort rules |
-| [SOC06 Network Traffic Analysis](06-SOC/SOC06-Network-Traffic-Analysis.md) | Wireshark display filters, packet analysis, NetworkMiner, investigation workflow |
+| [SOC09 — Windows Security Monitoring](06-SOC/SOC09-Windows-Security-Monitoring.md) | Event IDs (4624, 4625, 4720, 4732), Sysmon, RDP brute force, phishing delivery, persistence, and how to correlate with Logon ID and ProcessId |
+| [SOC10 — Linux Security Monitoring](06-SOC/SOC10-Linux-Security-Monitoring.md) | auth.log, auditd and process trees, SSH brute force, discovery, persistence, and a Windows-to-Linux log map |
+| [SOC05 — Phishing Analysis](06-SOC/SOC05-Phishing-Analysis.md) | Email header analysis, SPF/DKIM/DMARC, phishing tools, the analyze → investigate → remediate workflow |
+| [SOC07 — Network Security Monitoring](06-SOC/SOC07-Network-Security-Monitoring.md) | Perimeter logs, scan detection, data exfiltration, man-in-the-middle, IDS and Snort rules |
+| [SOC06 — Network Traffic Analysis](06-SOC/SOC06-Network-Traffic-Analysis.md) | Wireshark display filters, packet analysis, NetworkMiner, investigation workflow |
 
 ## Projects
 
@@ -27,9 +27,9 @@ If you only read a few files, read these:
 |---|---|
 | Google Cybersecurity Professional Certificate (Coursera) | Completed |
 | TryHackMe Pre-Security path | Completed |
-| TryHackMe SOC Level 1 path | In progress (13 of 14 modules completed) |
+| TryHackMe SOC Level 1 path | Completed on 19 Nov 2026 (14 of 14 modules) |
 
-## TryHackMe SOC Level 1 progress
+## TryHackMe SOC Level 1 Progress
 
 | Module | Notes | Status |
 |---|---|---|
@@ -46,7 +46,7 @@ If you only read a few files, read these:
 | Malware Concepts for SOC | [SOC11](06-SOC/SOC11-Malware-Concepts-for-SOC.md) | Completed |
 | Threat Analysis Tools | [SOC12](06-SOC/SOC12-Threat-Analysis-Tools.md) | Completed |
 | SIEM Triage for SOC | [SOC13](06-SOC/SOC13-SIEM-Triage-for-SOC.md) | Completed |
-| SOC Level 1 Capstone Challenges | Notes coming | Planned |
+| SOC Level 1 Capstone Challenges | [SOC14](06-SOC/SOC14-SOC-Level-1-Capstone-Challenges.md) | Completed |
 
 New SOC notes are added after each TryHackMe module is finished.
 
@@ -60,9 +60,9 @@ New SOC notes are added after each TryHackMe module is finished.
 | [03-Active-Directory](03-Active-Directory) | Domains, OUs, groups, GPO, Kerberos and NetNTLM |
 | [04-Programming](04-Programming) | Python basics, automation and regex, bash scripting, JavaScript XSS concepts |
 | [05-Security-Fundamentals](05-Security-Fundamentals) | CIA triad, risk, OWASP Top 10, malware types, encryption and hashing, web basics |
-| [06-SOC](06-SOC) | One note per TryHackMe SOC Level 1 module, listed in the progress table above |
+| [06-SOC](06-SOC) | Blue team, SOC internals, SOC tooling, frameworks, phishing analysis, network traffic analysis, network, web, Windows, and Linux security monitoring, malware concepts, threat intelligence tools, SIEM triage, and capstone incident investigations |
 
-## Tools used
+## Tools Used
 
 | Tool | Where I used it |
 |---|---|
